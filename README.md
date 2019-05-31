@@ -18,7 +18,7 @@ The original image colors will be highlighted, by default these are the symbols:
 
 ## Information
 In order to output a steady image, outputed ASCII text is converted to 32x32 (64x32) letters wide.  
-This can easily be changed by removing this line `ImageLocator = ImageManipulation.Resize(ImageLocator, 32, 32);` from `Converter(.cs)` class.
+This can easily be changed by removing this line `ImageLocator = ImageManipulation.Resize(ImageLocator, 32, 32);` from `Convertor(.cs)` class.
 
 ## Examples
 
