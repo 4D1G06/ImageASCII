@@ -1,0 +1,11 @@
+C:\Users\Adi\AppData\Local\Temporary Projects\ImageASCII\bin\Debug\ImageASCII.exe.config
+C:\Users\Adi\AppData\Local\Temporary Projects\ImageASCII\bin\Debug\ImageASCII.exe
+C:\Users\Adi\AppData\Local\Temporary Projects\ImageASCII\bin\Debug\ImageASCII.pdb
+C:\Users\Adi\AppData\Local\Temporary Projects\ImageASCII\obj\Debug\ImageASCII.csprojResolveAssemblyReference.cache
+C:\Users\Adi\AppData\Local\Temporary Projects\ImageASCII\obj\Debug\ImageASCII.exe
+C:\Users\Adi\AppData\Local\Temporary Projects\ImageASCII\obj\Debug\ImageASCII.pdb
+C:\Users\Adi\Documents\Visual Studio 2013\Projects\ImageASCII\ImageASCII\bin\Debug\ImageASCII.exe.config
+C:\Users\Adi\Documents\Visual Studio 2013\Projects\ImageASCII\ImageASCII\obj\Debug\ImageASCII.exe
+C:\Users\Adi\Documents\Visual Studio 2013\Projects\ImageASCII\ImageASCII\obj\Debug\ImageASCII.pdb
+C:\Users\Adi\Documents\Visual Studio 2013\Projects\ImageASCII\ImageASCII\bin\Debug\ImageASCII.exe
+C:\Users\Adi\Documents\Visual Studio 2013\Projects\ImageASCII\ImageASCII\bin\Debug\ImageASCII.pdb
