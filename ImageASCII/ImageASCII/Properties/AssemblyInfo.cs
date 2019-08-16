@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("ImageASCII")]
-[assembly: AssemblyCopyright("Copyright ©  Adi '4D1 (thEsp)' Behluli, 2019")]
+[assembly: AssemblyCopyright("Copyright ©  Adi '4D1 (thEsp)' Behluli, 2019")] // Të drejtat e autorit.
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]

@@ -5,49 +5,40 @@ using ImageASCII;
 
 namespace ImageASCII
 {
-    internal class ShapeCalculator
+    internal class ShapeCalculator // Njësuesi i formave/ngjyrave
     {
 
         public static string GetShape(Color Color)
         {
-            // Red scales
-            if(Color.R > Color.G && Color.R > Color.B)
-            {
-                return Shapes.Red;
-            }
+            // E tejdukshme
+            // Transparent            
+            if (Color.A < 100) return Shapes.Transparent;
+            
+            // E verdhë
+            // Yellow      
+            if (Color.R > Color.B && Color.G > Color.B && Color.R - Color.G < 100) return Shapes.Yellow;
+            
+            // E zezë
+            // Black  
+            if (Color.R == Color.G && Color.G > Color.B || Color.R == 0 && Color.G == 0 && Color.B == 0) return Shapes.Black;
 
-            // Green scales
-            if (Color.G > Color.R && Color.G > Color.B)
-            {
-                return Shapes.Green;
-            }
+            // E bardhë
+            // White
+            if (Color.R - Color.G <= 10 || Color.G - Color.B <= 10 && Color.G - Color.B <= 10 || Color.B - Color.G <= 10) return Shapes.White;
 
-            // Blue scales
-            if (Color.B > Color.R && Color.B > Color.G)
-            {
-                return Shapes.Blue;
-            }
+            // E kuqe
+            // Red
+            if (Color.R > Color.G && Color.R > Color.B) return Shapes.Red;
 
-            if(Color.R == 0 && Color.G == 0 && Color.B == 0)
-            {
-                return Shapes.Black;
-            }
-            else
-            {
-                return Shapes.White;
-            }
+            // E gjelbërt
+            // Green
+            if (Color.G > Color.R && Color.G > Color.B) return Shapes.Green;
 
-            // White & Background
-            if (Color.R >= 182 && Color.G >= 182 && Color.B >= 182 || Color == Color.Transparent)
-            {
-                return Shapes.White;
-            }
+            // E kaltër
+            // Blue
+            if (Color.B > Color.R && Color.B > Color.G) return Shapes.Blue;
 
-            return Shapes.Black;
+            return Shapes.Default;
         }
-
-
-
-
     }
 }
